@@ -38,7 +38,6 @@ body {
 input {
   background-color: darkslategrey;
   color: white;
-  font-size: 2.5vw;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -104,6 +103,6 @@ td {
 
 @media (max-width: 580px) {
   input {
-    font-size: 2em;
+    font-size: 5em;
   }
 }
