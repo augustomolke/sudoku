@@ -89,3 +89,21 @@ td {
   height: 100%;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  input {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 581px) {
+  input {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 580px) {
+  input {
+    font-size: 2em;
+  }
+}
