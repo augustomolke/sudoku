@@ -160,13 +160,11 @@ function checkKey(e) {
     this.value = "";
     this.setAttribute("style", "color: white; background-color: darkslategrey");
   } else {
+    this.setAttribute("style", "color: white; background-color: darkslategrey");
+
     let max = parseInt(document.querySelector("select").value);
     if (parseInt(this.value) > max) {
       this.value = "";
-      this.setAttribute(
-        "style",
-        "color: white; background-color: darkslategrey"
-      );
     } else {
       let [row, col] = this.id.match(/\d{1,2}/g);
       row = parseInt(row);
@@ -203,11 +201,6 @@ function checkKey(e) {
                 i != col)
             ) {
               this.setAttribute("style", "color: red; background-color: wheat");
-            } else {
-              this.setAttribute(
-                "style",
-                "color: white; background-color: darkslategrey"
-              );
             }
           }
           break;
