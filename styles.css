@@ -87,11 +87,17 @@ tr {
 td {
   height: 100%;
   width: 100%;
+  min-width: 15px;
 }
 
 @media (max-width: 1024px) {
   input {
     font-size: 5em;
+  }
+
+  table {
+    width: 100wh;
+    height: 100wh;
   }
 }
 
@@ -104,5 +110,9 @@ td {
 @media (max-width: 580px) {
   input {
     font-size: 5em;
+  }
+  table {
+    width: 100wh;
+    height: 100wh;
   }
 }
